@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    width: 1345px;
+
+}
+.outline{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid Black; */
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.player{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid red; */
+    margin-left: 100px;
+}
+
+.computer
+{
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid green; */
+    margin-right: 100px;
+}
+
+.imgg{
+    height: 28%;
+    width: 80%;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.ply-img:hover{
+    /* opacity: 0.5; */
+    border: 5px solid orangered !important;
+    background-color: orangered !important;
+    cursor: pointer;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.score-board{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+.actual-score{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+h4{
+    margin-top: 80px;
+    background-color: #081b31;
+    color: #fff;
+    padding: 7px;
+    border-radius: 1rem;
+}
+
+button{
+    visibility: hidden;
+    margin-top: 80px;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: burlywood;
+}
